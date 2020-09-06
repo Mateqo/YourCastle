@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6B021C4A-F20F-443A-9562-D18A8225A4D3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MateuszBartkowiakHomework1</RootNamespace>
+    <AssemblyName>MateuszBartkowiakHomework1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>42500-castle-icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Customization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customization.Designer.cs">
+      <DependentUpon>Customization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="End.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="End.Designer.cs">
+      <DependentUpon>End.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game.Designer.cs">
+      <DependentUpon>Game.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info.Designer.cs">
+      <DependentUpon>Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Minigame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Minigame.Designer.cs">
+      <DependentUpon>Minigame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Customization.resx">
+      <DependentUpon>Customization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="End.resx">
+      <DependentUpon>End.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game.resx">
+      <DependentUpon>Game.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info.resx">
+      <DependentUpon>Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Minigame.resx">
+      <DependentUpon>Minigame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CustBg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CustBorder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fullscreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Normalscreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow-Left-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow-right-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1b4ed2647e2688099832d14ce695a6e4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adgadgadgb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Be.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bez nazwyx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bez nccdazwy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bez nafffttffzwy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound-off-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Info-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\muzyka.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clicker Heroes 2 Soundtrack - Track 11 - Shine.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\756d2ttt95f59049f9e8c19ad5741184b4c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hdhdhdh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bez nhhjfhkjfkfazwy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bez jyjyjyjnazwy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\07854d21a5245b6ad88ca196e5c06e6f.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bez nafgsergegggsfgsfgzwy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsyksryk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sawmilld.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sawmill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Koszary_wojownik.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M_SS_IronAge_Stable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wojclaymore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M_SS_MultiAge_EasterBonus3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M_SS_AllAge_EasterBonus16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A_SS_EarlyMiddleAge_Marketplace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G_SS_IronAge_Weavingmill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P_SS_IronAge_Butcher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G_SS_HighMiddleAge_GlassblowingWorkshop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G_SS_IronAge_JewelryManufacturer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chapel_lvl_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Headquarters_lvl_1-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Headquarters_lvl_16-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nowy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_town_hall_elves_13_cropped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\07-Up-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dfbsdnsn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fwgwbgwbf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dfavcav.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\62967-shield-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wheat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rtjsrjy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\advbadbab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drewno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\krowa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moneta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kamien.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sfbsfnbnsfnf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reah.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rdgsgsadg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dgdgndng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dfsjdjdjk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wgwsgsg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\egwrgwgh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark-dirt-texture-seamless-slab-marble-5c74bf53c04af.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ergege.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sdvbab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\controls_wsad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bokoblin_%28The_Wind_Waker%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41-413555_just-quiet-clipart-button-sound-on-off-png.png.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue-audio-sound-waves-png-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yuri-hill-mars104.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\113769.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Przechwytywanie.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Przechwytywanieh.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trrbr.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pobrany plik.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tapeta-2930-22-szare-tlo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tg4tb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tgtbwtb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="42500-castle-icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

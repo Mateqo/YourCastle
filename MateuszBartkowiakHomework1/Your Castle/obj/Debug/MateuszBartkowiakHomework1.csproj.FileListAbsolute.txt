@@ -1,0 +1,28 @@
+C:\Users\matmi\source\repos\MateuszBartkowiakHomework1\Your Castle\bin\Debug\MateuszBartkowiakHomework1.exe.config
+C:\Users\matmi\source\repos\MateuszBartkowiakHomework1\Your Castle\bin\Debug\MateuszBartkowiakHomework1.exe
+C:\Users\matmi\source\repos\MateuszBartkowiakHomework1\Your Castle\bin\Debug\MateuszBartkowiakHomework1.pdb
+C:\Users\matmi\source\repos\MateuszBartkowiakHomework1\Your Castle\obj\Debug\MateuszBartkowiakHomework1.csprojAssemblyReference.cache
+C:\Users\matmi\source\repos\MateuszBartkowiakHomework1\Your Castle\obj\Debug\MateuszBartkowiakHomework1.Customization.resources
+C:\Users\matmi\source\repos\MateuszBartkowiakHomework1\Your Castle\obj\Debug\MateuszBartkowiakHomework1.End.resources
+C:\Users\matmi\source\repos\MateuszBartkowiakHomework1\Your Castle\obj\Debug\MateuszBartkowiakHomework1.Game.resources
+C:\Users\matmi\source\repos\MateuszBartkowiakHomework1\Your Castle\obj\Debug\MateuszBartkowiakHomework1.Info.resources
+C:\Users\matmi\source\repos\MateuszBartkowiakHomework1\Your Castle\obj\Debug\MateuszBartkowiakHomework1.Minigame.resources
+C:\Users\matmi\source\repos\MateuszBartkowiakHomework1\Your Castle\obj\Debug\MateuszBartkowiakHomework1.Properties.Resources.resources
+C:\Users\matmi\source\repos\MateuszBartkowiakHomework1\Your Castle\obj\Debug\MateuszBartkowiakHomework1.csproj.GenerateResource.cache
+C:\Users\matmi\source\repos\MateuszBartkowiakHomework1\Your Castle\obj\Debug\MateuszBartkowiakHomework1.csproj.CoreCompileInputs.cache
+C:\Users\matmi\source\repos\MateuszBartkowiakHomework1\Your Castle\obj\Debug\MateuszBartkowiakHomework1.exe
+C:\Users\matmi\source\repos\MateuszBartkowiakHomework1\Your Castle\obj\Debug\MateuszBartkowiakHomework1.pdb
+C:\Users\matmi\source\repos\mateusz_bartkowiak\Laboratorium 1\MateuszBartkowiakHomework1\MateuszBartkowiakHomework1\Your Castle\bin\Debug\MateuszBartkowiakHomework1.exe.config
+C:\Users\matmi\source\repos\mateusz_bartkowiak\Laboratorium 1\MateuszBartkowiakHomework1\MateuszBartkowiakHomework1\Your Castle\bin\Debug\MateuszBartkowiakHomework1.exe
+C:\Users\matmi\source\repos\mateusz_bartkowiak\Laboratorium 1\MateuszBartkowiakHomework1\MateuszBartkowiakHomework1\Your Castle\bin\Debug\MateuszBartkowiakHomework1.pdb
+C:\Users\matmi\source\repos\mateusz_bartkowiak\Laboratorium 1\MateuszBartkowiakHomework1\MateuszBartkowiakHomework1\Your Castle\obj\Debug\MateuszBartkowiakHomework1.csprojAssemblyReference.cache
+C:\Users\matmi\source\repos\mateusz_bartkowiak\Laboratorium 1\MateuszBartkowiakHomework1\MateuszBartkowiakHomework1\Your Castle\obj\Debug\MateuszBartkowiakHomework1.Customization.resources
+C:\Users\matmi\source\repos\mateusz_bartkowiak\Laboratorium 1\MateuszBartkowiakHomework1\MateuszBartkowiakHomework1\Your Castle\obj\Debug\MateuszBartkowiakHomework1.End.resources
+C:\Users\matmi\source\repos\mateusz_bartkowiak\Laboratorium 1\MateuszBartkowiakHomework1\MateuszBartkowiakHomework1\Your Castle\obj\Debug\MateuszBartkowiakHomework1.Game.resources
+C:\Users\matmi\source\repos\mateusz_bartkowiak\Laboratorium 1\MateuszBartkowiakHomework1\MateuszBartkowiakHomework1\Your Castle\obj\Debug\MateuszBartkowiakHomework1.Info.resources
+C:\Users\matmi\source\repos\mateusz_bartkowiak\Laboratorium 1\MateuszBartkowiakHomework1\MateuszBartkowiakHomework1\Your Castle\obj\Debug\MateuszBartkowiakHomework1.Minigame.resources
+C:\Users\matmi\source\repos\mateusz_bartkowiak\Laboratorium 1\MateuszBartkowiakHomework1\MateuszBartkowiakHomework1\Your Castle\obj\Debug\MateuszBartkowiakHomework1.Properties.Resources.resources
+C:\Users\matmi\source\repos\mateusz_bartkowiak\Laboratorium 1\MateuszBartkowiakHomework1\MateuszBartkowiakHomework1\Your Castle\obj\Debug\MateuszBartkowiakHomework1.csproj.GenerateResource.cache
+C:\Users\matmi\source\repos\mateusz_bartkowiak\Laboratorium 1\MateuszBartkowiakHomework1\MateuszBartkowiakHomework1\Your Castle\obj\Debug\MateuszBartkowiakHomework1.csproj.CoreCompileInputs.cache
+C:\Users\matmi\source\repos\mateusz_bartkowiak\Laboratorium 1\MateuszBartkowiakHomework1\MateuszBartkowiakHomework1\Your Castle\obj\Debug\MateuszBartkowiakHomework1.exe
+C:\Users\matmi\source\repos\mateusz_bartkowiak\Laboratorium 1\MateuszBartkowiakHomework1\MateuszBartkowiakHomework1\Your Castle\obj\Debug\MateuszBartkowiakHomework1.pdb
